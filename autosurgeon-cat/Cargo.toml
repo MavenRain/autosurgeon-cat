@@ -1,6 +1,6 @@
 [package]
 name = "autosurgeon-cat"
-version = "0.1.2"
+version = "0.1.3"
 edition = "2024"
 description = "Derive-driven mapping between Rust types and automerge-cat documents"
 license = "MIT"
@@ -8,8 +8,8 @@ keywords = ["crdt", "category-theory", "automerge", "derive", "hydrate"]
 categories = ["data-structures", "rust-patterns"]
 
 [dependencies]
-comp-cat-rs = "0.4"
-automerge-cat = "0.3.0"
+comp-cat-rs = "0.5"
+automerge-cat = "0.3"
 autosurgeon-cat-derive = { version = "0.1.0", path = "../autosurgeon-cat-derive" }
 
 [dev-dependencies]
