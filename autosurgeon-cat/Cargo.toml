@@ -1,6 +1,6 @@
 [package]
 name = "autosurgeon-cat"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 description = "Derive-driven mapping between Rust types and automerge-cat documents"
 license = "MIT"
