@@ -19,6 +19,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          repository: MavenRain/automerge-cat
+          path: ../automerge-cat
       - uses: dtolnay/rust-toolchain@stable
       - run: cargo doc --no-deps --all-features
       - run: echo '<meta http-equiv="refresh" content="0; url=autosurgeon_cat/index.html">' > target/doc/index.html
