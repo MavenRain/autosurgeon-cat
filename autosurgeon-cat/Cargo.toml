@@ -8,9 +8,9 @@ keywords = ["crdt", "category-theory", "automerge", "derive", "hydrate"]
 categories = ["data-structures", "rust-patterns"]
 
 [dependencies]
-comp-cat-rs = { path = "../../comp-cat-rs" }
-automerge-cat = { path = "../../automerge-cat" }
-autosurgeon-cat-derive = { path = "../autosurgeon-cat-derive" }
+comp-cat-rs = "0.4"
+automerge-cat = { version = "0.3.0", path = "../../automerge-cat" }
+autosurgeon-cat-derive = { version = "0.1.0", path = "../autosurgeon-cat-derive" }
 
 [dev-dependencies]
 proptest = "1"
