@@ -1,0 +1,20 @@
+[package]
+name = "autosurgeon-cat"
+version = "0.1.0"
+edition = "2024"
+description = "Derive-driven mapping between Rust types and automerge-cat documents"
+license = "MIT"
+keywords = ["crdt", "category-theory", "automerge", "derive", "hydrate"]
+categories = ["data-structures", "rust-patterns"]
+
+[dependencies]
+comp-cat-rs = { path = "../../comp-cat-rs" }
+automerge-cat = { path = "../../automerge-cat" }
+autosurgeon-cat-derive = { path = "../autosurgeon-cat-derive" }
+
+[dev-dependencies]
+proptest = "1"
+
+[lints.clippy]
+all = "deny"
+pedantic = "warn"
