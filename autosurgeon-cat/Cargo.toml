@@ -9,7 +9,7 @@ categories = ["data-structures", "rust-patterns"]
 
 [dependencies]
 comp-cat-rs = "0.4"
-automerge-cat = { version = "0.3.0", path = "../automerge-cat" }
+automerge-cat = "0.3.0"
 autosurgeon-cat-derive = { version = "0.1.0", path = "../autosurgeon-cat-derive" }
 
 [dev-dependencies]
